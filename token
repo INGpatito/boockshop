@@ -1,0 +1,15 @@
+// Obtén el token que guardaste en el login
+const token = sessionStorage.getItem("gtr_token"); 
+
+async function loadProfile() {
+  try {
+    const res = await fetch(`${API}/api/user/${userId}`, {
+      method: 'GET',
+      headers: {
+        // ESTA ES LA LLAVE QUE FALTA 🗝️
+        'Authorization': `Bearer ${token}`, 
+        'Content-Type': 'application/json'
+      }
+    });
+    
+    // ... resto de tu lógica
