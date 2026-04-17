@@ -1,0 +1,22 @@
+initRevealAnimations(prefersReducedMotion);
+  initParallax(prefersReducedMotion);
+  initParticles(prefersReducedMotion);
+  initSplitText(prefersReducedMotion);
+  initScrollTextParallax(prefersReducedMotion);
+  initCounterAnimations();
+  initMobileNav();
+  initHeaderScroll();
+  initCustomCursor(prefersReducedMotion);
+  initI18n();
+  initRealTimeClock();
+  runCinematicLoading({
+    loader,
+    pageShell,
+    body,
+    progressCircle,
+    progressValue,
+    loaderStatus,
+    loaderCue,
+    prefersReducedMotion
+  });
+});
