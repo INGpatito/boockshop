@@ -1,0 +1,8 @@
+function showMenu() {
+console.log("\n--- Gestor de Tareas ---");
+console.log("1. Agregar tarea");
+console.log("2. Ver tareas");
+console.log("3. Eliminar tarea");
+console.log("4. Salir");
+rl.question("Selecciona una opción: ", handleMenu);
+}
