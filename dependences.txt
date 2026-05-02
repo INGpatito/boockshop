@@ -1,0 +1,51 @@
+ config/ — Configuración centralizada
+ config/__init__.py
+ config/settings.py
+ config/theme.py
+ core/ — Lógica de negocio
+ core/__init__.py
+ core/database.py
+ core/crypto.py
+ core/email_service.py
+ services/ — Capa de datos
+ services/__init__.py
+ services/reservation_service.py
+ services/member_service.py
+ services/vehicle_service.py
+ ui/ — Interfaz de usuario
+ ui/__init__.py
+ ui/widgets.py
+ ui/admin/__init__.py
+ ui/admin/app.py
+ ui/admin/sidebar.py
+ ui/admin/activity_tab.py
+ ui/admin/members_tab.py
+ ui/admin/security_dialog.py
+ ui/scanner/__init__.py
+ ui/scanner/app.py
+ ui/scanner/sidebar.py
+ ui/scanner/profile_view.py
+ utils/ — Utilidades
+ utils/__init__.py
+ utils/cars_api.py
+ utils/sound.py
+ Launchers
+ run_admin.py
+ run_scanner.py
+ .env.example actualizado
+ Limpieza
+ Eliminar main.py
+ Eliminar member_scanner.py
+ Eliminar cars.py
+ Eliminar __pycache__/
+ Verificación
+ ✅ config.settings OK
+ ✅ config.theme OK
+ ✅ core.database OK
+ ✅ core.crypto OK (Card for ID 1: 3164 7703 1987 1980)
+ ✅ core.email_service OK
+ ✅ services.reservation OK
+ ✅ services.member OK
+ ✅ services.vehicle OK
+ ✅ utils OK
+ ✅ ui.widgets OK
